@@ -90,6 +90,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_profile) {
 
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+
         } else if (id == R.id.nav_friends) {
 
         } else if (id == R.id.nav_gallery) {
